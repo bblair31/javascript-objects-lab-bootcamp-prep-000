@@ -1,7 +1,7 @@
 var recipes = {
-  key: 'value'
+  prop: '1'
 }
-function updateObjectWithKeyAndValue(recipes, key2, value2) {
-  recipes[key2] = 'value2'
+function updateObjectWithKeyAndValue(recipes, prop2, value2) {
+  recipes[prop2] = '2'
   return recipes
 }
